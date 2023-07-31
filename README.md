@@ -2,7 +2,7 @@
 
 A minimalistic todo list that works with your local storage
 
-Demo is live on minimal-todo-app.onrender.com
+Demo is live [Here](https://minimal-todo-app.onrender.com)
 
 ## Table of Contents
 
@@ -36,4 +36,5 @@ Just me. :D
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+
+![MITlicense](https://img.shields.io/badge/license-MIT-blue)
