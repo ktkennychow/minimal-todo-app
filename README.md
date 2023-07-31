@@ -2,7 +2,7 @@
 
 A minimalistic todo list that works with your local storage
 
-Demo is live on minimal-todo-app.onrender.com
+Demo is live on [minimal-todo-app.onrender.com](minimal-todo-app.onrender.com)
 
 ## Table of Contents
 
