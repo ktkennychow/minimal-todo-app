@@ -13,7 +13,7 @@ const TodoList = () => {
   const [todos, setTodos] = useState<Todo[]>([])
   const [newTodoInput, setNewTodoInput] = useState('')
   useEffect(() => {
-    const localTodos = JSON.parse(localStorage.getItem('todos') || '')
+    const localTodos = JSON.parse(localStorage.getItem('todos')|| '""')
     if (localTodos) {
       setTodos(localTodos)
     }
