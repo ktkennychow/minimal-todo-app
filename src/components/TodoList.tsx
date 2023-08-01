@@ -12,6 +12,7 @@ interface Todo {
 const TodoList = () => {
   const [todos, setTodos] = useState<Todo[]>([])
   const [newTodoInput, setNewTodoInput] = useState('')
+
   useEffect(() => {
     const localTodos = JSON.parse(localStorage.getItem('todos')|| '""')
     if (localTodos) {
@@ -44,6 +45,7 @@ const TodoList = () => {
     setTodos([...todos, newItem])
     setNewTodoInput('')
   }
+  
   return (
     <div className='flex flex-col items-center'>
       <h1 className='text-3xl'>Minimal Todo List</h1>
