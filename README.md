@@ -36,5 +36,4 @@ Just me. :D
 
 ## License
 
-
-![MITlicense](https://img.shields.io/badge/license-MIT-blue)
+![MIT license](https://img.shields.io/badge/license-MIT-blue)
