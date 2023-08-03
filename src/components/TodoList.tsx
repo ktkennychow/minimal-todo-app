@@ -57,7 +57,7 @@ const TodoList = () => {
             placeholder='New todo'
             value={newTodoInput}
             onChange={(e) => setNewTodoInput(e.target.value)}
-            className='text-zinc-900'
+            className='text-zinc-900 text-base'
           />
           <Button
             variant='outline'
